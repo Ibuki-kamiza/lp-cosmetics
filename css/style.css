@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fcf4f4;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.hero-text {
+  width: 45%;
+}
+
+.hero-image img {
+  width: 400px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.catch {
+  font-size: 32px;
+}
+
+.sale {
+  font-size: 56px;
+  color: #8b2e45;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background: #8b2e45;
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+}
+
+.features,
+.gallery,
+.campaign {
+  padding: 80px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.gallery-list {
+  display: flex;
+  gap: 24px;
+}
+
+.gallery-list img {
+  width: 250px;
+}
+
+.campaign {
+  background: #8b2e45;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+}
